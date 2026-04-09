@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.movies.model.Movie;
-import com.example.service.MovieService;
+import com.example.movies.service.MovieService;
 
 @RestController
 public class MoviesController {

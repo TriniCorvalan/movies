@@ -1,4 +1,4 @@
-package com.example.service;
+package com.example.movies.service;
 
 import java.util.List;
 
