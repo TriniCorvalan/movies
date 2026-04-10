@@ -30,12 +30,21 @@ public class MovieServiceImpl implements MovieService {
 
     @Override
     public Movie updateMovie(Long id, Movie movie) {
-        return movieRepository.save(movie);
+        if (movieRepository.existsById(id)) {
+            movie.setId(id);
+            return movieRepository.save(movie);
+        } else {
+            throw new RuntimeException("Movie not found");
+        }
     }
 
     @Override
     public void deleteMovie(Long id) {
-        movieRepository.deleteById(id);
+        if (movieRepository.existsById(id)) {
+            movieRepository.deleteById(id);
+        } else {
+            throw new RuntimeException("Movie not found");
+        }
     }
     
     
