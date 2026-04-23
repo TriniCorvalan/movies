@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.movies.model.Movie;
-import com.example.movies.reporsitory.MovieRepository;
+import com.example.movies.repository.MovieRepository;
 
 @Service
 public class MovieServiceImpl implements MovieService {
