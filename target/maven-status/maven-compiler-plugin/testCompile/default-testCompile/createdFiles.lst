@@ -1,0 +1,4 @@
+com/example/movies/controller/MoviesControllerTest.class
+com/example/movies/MoviesApplicationTests.class
+com/example/movies/model/MovieTest.class
+com/example/movies/service/MovieServiceImplTest.class

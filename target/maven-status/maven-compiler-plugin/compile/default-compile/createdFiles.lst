@@ -1,0 +1,6 @@
+com/example/movies/CinemaApplication.class
+com/example/movies/controller/MoviesController.class
+com/example/movies/repository/MovieRepository.class
+com/example/movies/service/MovieService.class
+com/example/movies/model/Movie.class
+com/example/movies/service/MovieServiceImpl.class
